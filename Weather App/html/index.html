@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel ="stylesheet" href="../css/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather App</title>
+
+</head>
+<body>
+
+    <div class = "container">
+
+        <img src="https://safikumar00.github.io/assets/main.png" class="main-img">
+
+        <!---Creating box-1---->
+
+        <div class="box-1">
+
+          <div class="hinge">
+
+          <div class="rect"></div>
+          <div class="rect"></div>
+          <div class="rect"></div>
+          <div class="rect"></div>
+          <div class="rect"></div>
+          <div class="rect"></div>
+
+          </div>
+
+          <h1 class ="main-p">Date Part</h1>
+
+          <div class ="sec-p">
+
+            <input type ="text" placeholder="Enter your city name.." class ="enter" id="city-name" required>
+
+            <button class ="submit" onclick="cityNameChange()">Submit</button>
+
+          </div>
+
+          <div class ="Date p">
+
+        <p id ="year" class ="hallow"></p>
+        <p id ="date" class ="hallow"></p>
+        <p id ="month" class ="hallow"></p>
+        <p id ="day" class ="hallow"></p>
+
+         </div>
+
+          </div>
+
+          <!----Creating box-2---->
+
+
+         <div class ="box-2">
+
+            <div class ="hinge-2">
+
+              <div class="rect"></div>
+              <div class="rect"></div>
+              <div class="rect"></div>
+              <div class="rect"></div>
+              <div class="rect"></div>
+              <div class="rect"></div>
+    
+            </div>
+
+            <div class="card-title">
+
+                <h2 class="title" id="name"></h2>
+
+              </div>
+
+              <div class="temp">
+
+                <h1 id ="temp"></h1>
+
+                <span class ="t-real">°c</span>
+
+              </div>
+
+              <div class="temp-1 bg-blue">
+                
+                <h3 id="feel"></h3>
+
+              </div>
+              
+            </div>
+
+
+
+         </div> 
+
+
+        
+    </div>
+
+    <script src="../javascript/script.js"></script>
+    
+</body>
+</html>
